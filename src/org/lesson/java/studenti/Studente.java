@@ -2,9 +2,9 @@ package org.lesson.java.studenti;
 
 public class Studente {
     // attributi della classe
-    private String nome;
-    private String cognome;
-    private int età;
+    public String nome;
+    public String cognome;
+    public int età;
 
     // costruttore
     public Studente(String nome, String cognome, int età) {
@@ -16,6 +16,19 @@ public class Studente {
     // metodi per ottenere una stringa con tutti i dati
     public String datiStudente() {
         return nome + " " + cognome + " " + età + " anni";
+    }
+
+    //getter per snack 3
+    public String getNome(){
+        return nome;
+    }
+
+    public String getCognome(){
+        return cognome;
+    }
+
+    public int getEtà(){
+        return età;
     }
 
 }
