@@ -1,6 +1,6 @@
 package org.lesson.java.studenti;
 
-public class Main {
+public class mainStudenti{
     public static void main(String[] args) {
 
         Studente studente1 = new Studente("Mario", "Esposito", 24);
